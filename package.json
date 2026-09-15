@@ -1,0 +1,13 @@
+{
+  "name": "orbit-see-beyond",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Orbit — See beyond now. Landing page",
+  "scripts": {
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy public --project-name orbit-see-beyond --branch main"
+  },
+  "devDependencies": {
+    "wrangler": "^4.130.0"
+  }
+}
